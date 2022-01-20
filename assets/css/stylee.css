@@ -4,11 +4,60 @@ body{
 a{
     margin: 0;
     padding: 0;
+    text-decoration: none!important;
 }
 ul{
     list-style: none;
+   
 }
 header{
     height: 100px;
     background: #F2E1D9;;
+}
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+    float: right;
+    height: 100px;
+   
+}
+.header-box{
+    align-items: center;
+    display: flex!important;
+    justify-content: flex-end;
+    
+}
+.header-left{
+    width: 60%;
+    padding-left: 42px;
+}
+.super-head1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+}
+.super-head2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 85%;
+    float: right;
+}
+.text{
+    color: black;
+    font-family: inherit;
+    font-weight: 600;
+}
+#input{
+    border: none;
+    background-color: #f2e1d9;
+    border-bottom: 1px solid #a09e9e;
+}
+.fas{
+    color: #605d5d;
+    font-size: medium;
 }
