@@ -17,7 +17,7 @@ header{
 .header-right{
     display: flex;
     justify-content: flex-end;
-    width: 40%;
+    width: 44%;
     float: right;
     height: 100px;
    
@@ -29,7 +29,7 @@ header{
     
 }
 .header-left{
-    width: 60%;
+    width: 50%;
     padding-left: 42px;
 }
 .super-head1{
@@ -42,9 +42,9 @@ header{
 .super-head2{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 100px;
-    width: 85%;
+    width: 81%;
     float: right;
 }
 .text{
@@ -56,8 +56,25 @@ header{
     border: none;
     background-color: #f2e1d9;
     border-bottom: 1px solid #a09e9e;
+    width: 260px;
 }
 .fas{
     color: #605d5d;
     font-size: medium;
+}
+.cir{
+    width: 21px;
+    height: 21px;
+    background: #f2872b;
+     display: flex;
+    border-radius: 50px;
+    top: 52px;
+    right: 34px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.logo{
+    display: flex;
+    justify-content: flex-end;
 }
