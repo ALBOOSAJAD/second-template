@@ -52,6 +52,9 @@ header{
     font-family: inherit;
     font-weight: 600;
 }
+.text:hover{
+    color:rgb(238, 140, 59)
+}
 #input{
     border: none;
     background-color: #f2e1d9;
@@ -77,4 +80,14 @@ header{
 .logo{
     display: flex;
     justify-content: flex-end;
+}
+.submit{
+    position: absolute;
+    width: 170px;
+    background: #e2e43369;
+    top: 99px;
+    left: 25%;
+    border-top: 2px solid black;
+    font-size: larger;
+    font-family: cursive;
 }
