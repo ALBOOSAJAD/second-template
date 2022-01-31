@@ -52,9 +52,11 @@ header{
     font-family: inherit;
     font-weight: 600;
 }
+
 .text:hover{
-    color:rgb(238, 140, 59)
+    color:rgb(238, 140, 59);
 }
+
 #input{
     border: none;
     background-color: #f2e1d9;
@@ -90,4 +92,9 @@ header{
     border-top: 2px solid black;
     font-size: larger;
     font-family: cursive;
+}
+.carousel-item{
+    background-image: url(../images/h1_hero.png.webp);
+    background-repeat: no-repeat;
+    
 }
