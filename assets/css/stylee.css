@@ -82,19 +82,43 @@ header{
 .logo{
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    left: 0%;
+    top: 0px;
 }
 .submit{
     position: absolute;
-    width: 170px;
+    width: 158px;
     background: #e2e43369;
     top: 99px;
-    left: 25%;
-    border-top: 2px solid black;
+    left: 33%;
+    border-top: 3px solid black;
     font-size: larger;
     font-family: cursive;
+    z-index: 100;
+    display: none;
+    height: 169px;
 }
-.carousel-item{
-    background-image: url(../images/h1_hero.png.webp);
-    background-repeat: no-repeat;
-    
+li:hover .submit{
+    display: block;
+}
+.submit1{
+    position: absolute;
+    width: 151px;
+    background: #e2e43369;
+    top: 99px;
+    left: 40%;
+    border-top: 3px solid black;
+    font-size: medium;
+    font-family: cursive;
+    z-index: 100;
+    display: none;
+    height: 116px;
+}
+li:hover .submit1{
+display: block;
+}
+a{
+    color: blue;
+    font-size: large;
 }
